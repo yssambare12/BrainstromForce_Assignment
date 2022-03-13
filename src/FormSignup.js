@@ -6,8 +6,7 @@ import useForm from './useForm';
 import './Form.css';
 
 const FormSignup = ({ submitForm }) => {
-  const { handleChange, handleSubmit, values, errors } = useForm(
-    submitForm,
+  const { handleChange, handleSubmit, values, errors } = useFor
     validate
   );
 
