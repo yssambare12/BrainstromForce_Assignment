@@ -1,10 +1,13 @@
-// Branstrom Force Ass
+// Branstrom Force Assignment
+
 import React from 'react';
 import validate from './validateInfo';
 import useForm from './useForm';
-import './Form.c
+import './Form.css';
+
 const FormSignup = ({ submitForm }) => {
-  const { handleChange, handleSubmit, values, errors } = useFor
+  const { handleChange, handleSubmit, values, errors } = useForm(
+    submitForm,
     validate
   );
 
